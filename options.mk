@@ -1,4 +1,4 @@
-CCCOM=g++ -m64 -std=c++11 -fPIC
+CCCOM=g++ -m64 -std=c++17 -fPIC
 PLATFORM=lapack
 BLAS_LAPACK_LIBFLAGS=-llapack -lblas -lpthread
 BLAS_LAPACK_INCLUDEFLAGS=
